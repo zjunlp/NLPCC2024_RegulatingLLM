@@ -65,7 +65,7 @@ We evaluate KQA and CSM by [OpenCompass](https://github.com/open-compass/opencom
 
 ## Participation
 
-If you're intrigued by our challenge, please fill out the Registration Form ([Word File](http://tcci.ccf.org.cn/conference/2024/dldoc/NLPCC2024.SharedTask10.RegistrationForm.doc)) and send it to the following registration email.
+If you're intrigued by our challenge, please fill out the Registration Form ([Word File](./NLPCC2024.SharedTask10.RegistrationForm.doc)) and send it to the following registration email.
 
 **Registration Email:** [mengruwg@zju.edu.cn](mailto:mengruwg@zju.edu.cn)
 
