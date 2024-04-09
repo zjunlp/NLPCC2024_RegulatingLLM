@@ -57,3 +57,8 @@ If you're intrigued by our challenge, please fill out the Registration Form ([Wo
 - 2024/06/11：release of test data
 - 2024/06/20：participants’ results submission deadline
 - 2024/06/30：evaluation results release and call for system reports and conference paper
+## Supporting Organization
+
+OpenKG
+
+Zhejiang University - Ant Group Joint Laboratory of Knowledge Graph
