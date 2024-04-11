@@ -48,6 +48,12 @@ If you're intrigued by our challenge, please fill out the Registration Form ([Wo
 
 **Registration Email:** [mengruwg@zju.edu.cn](mailto:mengruwg@zju.edu.cn)
 
+we also create a **discussion group** for this task. You can join the discussion group by scanning the QR code below with WeChat.
+
+<div align=center>
+<img src="./img/NLPCC2024-task10-参赛群二维码.jpg" width="30%" height="30%" />
+</div>
+
 ## Important Dates
 
 - 2024/03/25：announcement of shared tasks and call for participation
