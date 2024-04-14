@@ -101,7 +101,10 @@ The evaluation metrics include two main categories: detoxification performance a
 ## Baseline Results
 
 #### Track 1: Multimodal Hallucination Detection for Multimodal Large Language Models
-The claim level results on validation dataset.HalDet-LLAVA means LLAVA-v1.5 trained on our train datasets;UniHD means GPT4V with 2-shot and tool information
+The claim level results on validation dataset
+- Self-Check(GPT-4V) means use GPT-4V with 0 or 2 cases
+- UniHD(GPT-4V) means use GPT4V with 2-shot and tool information
+- HalDet (LLAVA) means use LLAVA-v1.5 trained on our train datasets
 <table>
     <tr>
         <td></td>
