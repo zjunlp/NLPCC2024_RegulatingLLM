@@ -138,7 +138,6 @@ More information will be available shortly.
 Please cite our paper if you use SafeEdit.
 
 ```bibtex
-
 @article{wang2024SafeEdit,
   author={Mengru Wang, Ningyu Zhang, Ziwen Xu, Zekun Xi, Shumin Deng, Yunzhi Yao, Qishen Zhang, Linyi Yang, Jindong Wang, Huajun Chen},
   title        = {Detoxifying Large Language Models via Knowledge Editing},
@@ -148,6 +147,20 @@ Please cite our paper if you use SafeEdit.
   eprint       = {2403.14472},
 }
 
+@article{chen24unihd,
+  author       = {Xiang Chen and Chenxi Wang and Yida Xue and Ningyu Zhang and Xiaoyan Yang and 
+                  Qiang Li and Yue Shen and Lei Liang and Jinjie Gu and Huajun Chen},
+  title        = {Unified Hallucination Detection for Multimodal Large Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2402.03190},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2402.03190},
+  doi          = {10.48550/ARXIV.2402.03190},
+  eprinttype    = {arXiv},
+  eprint       = {2402.03190},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2402-03190.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ## Supporting Organization
