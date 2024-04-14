@@ -79,7 +79,7 @@ The evaluation metrics include two main categories: detoxification performance a
   - GSM8K: math word task
   - AGIEval: human-centric benchmark
 
-> ❗️❗️ For the convenience of participants in evaluating various metrics, we have provided a [toy demo](https://github.com/zjunlp/EasyEdit/blob/main/examples/SafeEdit.md) for metrics $\mathrm{DG}_\text{onlyQ}$, $\mathrm{DG}_\text{otherAQ}$, and Fluency. The classifier used for evaluating detoxification success can be access by [this link](https://huggingface.co/zjunlp/DINM-Safety-Classifier).
+> ❗️❗️ For the convenience of participants in evaluating various metrics, we have provided a [toy demo](https://github.com/zjunlp/EasyEdit/blob/main/examples/SafeEdit.md) for metrics $\mathrm{DG}\_\text{onlyQ}$, $\mathrm{DG}\_\text{otherAQ}$, and Fluency. The classifier used for evaluating detoxification success can be access by [this link](https://huggingface.co/zjunlp/DINM-Safety-Classifier).
 For other metrics, please use [OpenCompass tool](https://github.com/open-compass/opencompass) for fair comparisons. 
 
 ## Submission
@@ -131,7 +131,7 @@ More information will be available shortly.
 
 ## 📖 Citation
 
-Please cite our paper if you use SafeEdit or XXX.
+Please cite our paper if you use SafeEdit.
 
 ```bibtex
 
