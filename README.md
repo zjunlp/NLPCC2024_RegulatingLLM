@@ -86,7 +86,7 @@ The evaluation metrics include two main categories: detoxification performance a
 
 ## Submission
 
-**Note that best result of this track will be verified via code provided by participants.** 
+**Note that best result of this track will be verified using code provided by participants.** 
 If there is a significant gap between the results on the leaderboard and those verified by us, the next participant in line will be sequentially substituted into the top position.
 
 
