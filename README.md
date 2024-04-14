@@ -111,35 +111,35 @@ The claim level results on validation dataset.HalDet-LLAVA means LLAVA-v1.5 trai
     </tr>
     <tr>
         <td rowspan="5">image-to-text</td>
-        <td>GPT4V 0-shot</td>
+        <td>Self-Check 0shot (GPV-4V)</td>
         <td>75.09</td> 
         <td>74.94</td>
         <td>75.19</td>
         <td>74.97</td>
     </tr>
     <tr>
-        <td>GPT4V 2-shot</td>
+        <td>Self-Check 2shot (GPV-4V)</td>
         <td>79.25</td>
         <td>79.02</td>
         <td>79.16</td>
         <td>79.08</td>
     </tr>
     <tr>
-        <td>HalDet-LLAVA-7b</td>
+        <td>HalDet (LLAVA-7b)</td>
         <td>75.02</td>
         <td>75.05</td>
         <td>74.18</td>
         <td>74.38</td>
     </tr>
     <tr>
-        <td>HalDet-LLAVA-13b</td>
+        <td>HalDet (LLAVA-13b)</td>
         <td>78.16</td>
         <td>78.18</td>
         <td>77.48</td>
         <td>77.69</td>
     </tr>
     <tr>
-        <td>UniHD</td>
+        <td>UniHD(GPT-4V)</td>
         <td>81.91</td>
         <td>81.81</td>
         <td>81.52</td>
