@@ -72,7 +72,7 @@ Please select [LLaMA2-7B-Chat](https://huggingface.co/meta-llama/Llama-2-7b-chat
 
 The evaluation metrics include two main categories: Rule-based metric and Rationality-based metric.
 
-- Rule-based metric: Use macro average to roughly evaluate the effect of hallucination detection
+- Rule-based metric: Use macro-f1 to roughly evaluate the effect of hallucination detection
 
 - Rationality-based metric: When the average values of multiple macros are similar, we use manual evaluation or evaluate the reasonability of the generated reason based on GPT.
 
