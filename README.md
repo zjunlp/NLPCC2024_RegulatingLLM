@@ -169,6 +169,6 @@ OpenKG
 
 Zhejiang University - Ant Group Joint Laboratory of Knowledge Graph
 
-If you have any questions about this task, please email to mengruwg@zju.edu.cn and xiang_chen@zju.edu.cn
+If you have any questions about this task, please email to mengruwg@zju.edu.cn or xiang_chen@zju.edu.cn
 
 
