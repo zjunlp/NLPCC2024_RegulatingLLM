@@ -23,8 +23,19 @@ This shared task includes two tracks:
 
 #### Track 1: Dataset for Multimodal Hallucination Detection for Multimodal Large Language Models
 
+You can download the datasets via [this link](https://huggingface.co/datasets/openkg/MHaluBench).
 
-More information will be available shortly.
+The expected structure of files is:
+
+```
+data
+├── train.json                     # training dataset
+├── val.json                       # validation dataset
+├── test.json                      # test dataset which we will release in the future
+```
+
+> ❗️❗️**Data Utility Rules:** 
+Due to the use of open source data, we do not provide image data. You need to download [MSCOCO-train2014](http://images.cocodataset.org/zips/train2014.zip), [MSCOCO-val2014](http://images.cocodataset.org/zips/val2014.zip), [TextVQA-train](https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip), and [TextVQA-test](https://dl.fbaipublicfiles.com/textvqa/images/test_images.zip) by yourself. For model training, **only the data provided by [this link](https://huggingface.co/datasets/openkg/MHaluBench) is allowed to be used as supervised data, which includes train.json, val.json.**    test.json will be used to evaluate the hallucination detected model or pipeline.
 
 #### Track 2: Dataset for Detoxifying Large Language Models
 
@@ -59,7 +70,11 @@ Please select [LLaMA2-7B-Chat](https://huggingface.co/meta-llama/Llama-2-7b-chat
 
 #### Track 1: Multimodal Hallucination Detection for Multimodal Large Language Models
 
-More information will be available shortly.
+The evaluation metrics include two main categories: Rule-based metric and Rationality-based metric.
+
+- Rule-based metric: Use macro average to roughly evaluate the effect of hallucination detection
+
+- Rationality-based metric: When the average values of multiple macros are similar, we use manual evaluation or evaluate the reasonability of the generated reason based on GPT.
 
 #### Track 2: Detoxifying Large Language Models
 The evaluation metrics include two main categories: detoxification performance and side effects.
