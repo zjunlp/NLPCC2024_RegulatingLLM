@@ -10,9 +10,9 @@ The rise of large language models has brought about significant advancements in 
 
 This shared task includes two tracks:
 
-● Track 1: Multimodal Hallucination Detection for Multimodal Large Language Models: Develop methods to identify and flag hallucinatory outputs that do not correlate with reality or the given input context when dealing with multimodal prompts (text, images etc.). This track would involve creating detection algorithms that can discern between accurate and hallucinated responses across different modalities, thereby ensuring the reliability of the model's outputs.
+● **Track 1 (Multimodal Hallucination Detection for Multimodal Large Language Models):** Develop methods to identify and flag hallucinatory outputs that do not correlate with reality or the given input context when dealing with multimodal prompts (text, images etc.). This track would involve creating detection algorithms that can discern between accurate and hallucinated responses across different modalities, thereby ensuring the reliability of the model's outputs.
 
-● Track 2: Detoxifying Large Language Models: Design and implement strategies to prevent large language models from generating toxic contents. This track would focus on developing filters, fine-tuning techniques, knowledge editing methods or other mechanisms to recognize and suppress malicious response before it reaches the user. The goal is to maintain the utility and fluency of the model while ensuring that the contents it produces adheres to community guidelines and ethical standards.
+● **Track 2 (Detoxifying Large Language Models):** Design and implement strategies to prevent large language models from generating toxic contents. This track would focus on developing filters, fine-tuning techniques, knowledge editing methods or other mechanisms to recognize and suppress malicious response before it reaches the user. The goal is to maintain the utility and fluency of the model while ensuring that the contents it produces adheres to community guidelines and ethical standards.
 
 
 
