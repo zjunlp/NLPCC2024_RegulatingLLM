@@ -206,12 +206,22 @@ Please cite our paper if you use SafeEdit.
 
 ```bibtex
 @article{wang2024SafeEdit,
-  author={Mengru Wang, Ningyu Zhang, Ziwen Xu, Zekun Xi, Shumin Deng, Yunzhi Yao, Qishen Zhang, Linyi Yang, Jindong Wang, Huajun Chen},
+  author       = {Mengru Wang and
+                  Ningyu Zhang and
+                  Ziwen Xu and
+                  Zekun Xi and
+                  Shumin Deng and
+                  Yunzhi Yao and
+                  Qishen Zhang and
+                  Linyi Yang and
+                  Jindong Wang and
+                  Huajun Chen},
   title        = {Detoxifying Large Language Models via Knowledge Editing},
+  journal      = {CoRR},
+  volume       = {abs/2403.14472},
   year         = {2024},
   url          = {https://doi.org/10.48550/arXiv.2403.14472},
-  eprinttype    = {arXiv},
-  eprint       = {2403.14472},
+  doi          = {10.48550/ARXIV.2403.14472},
 }
 
 @article{chen24unihd,
