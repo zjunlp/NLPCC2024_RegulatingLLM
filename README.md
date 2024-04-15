@@ -157,7 +157,6 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
 - SFT: fine-tune the entire model
 - DPO: adopt direct preference optimization
 - DINM: detoxify via model editing using only one instance
-- MergeDD: merge the weights obtained by DPO and DINM
 
 **We will soon release codes for the above methods and offer some promising strategies and suggestions for this track**. If necessary, You can access these resources from [this link](https://github.com/zjunlp/EasyEdit/blob/main/examples/SafeEdit.md). 
 
@@ -223,21 +222,8 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
     <td><center>45.15</td>
     <td><center>15.31</td>
   </tr>
-  <tr>
-    <td>MergeDD</td>
-    <td><center>48.39</td>
-    <td><center>97.78</td>
-    <td><center>98.27</td>
-    <td><center>5.24</td>
-    <td><center>52.42</td>
-    <td><center>39.97</td>
-    <td><center>23.24</td>
-    <td><center>45.65</td>
-    <td><center>24.56</td>
-  </tr>
 
 </table>
-
 
  > ❗️❗️If conducting experiments using an A800 GPU, calculating the MMLU metric takes around 12 hours, while each of the other metrics only takes about 2 hours.
 
