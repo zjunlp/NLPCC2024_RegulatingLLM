@@ -31,7 +31,7 @@ The expected structure of files is:
 data
 ├── train.json                     # training dataset
 ├── val.json                       # validation dataset
-├── test.json                      # test dataset which we will release in the future
+└── test.json                      # test dataset which we will release in the future
 ```
 
 > ❗️❗️**Data Utility Rules:** 
@@ -50,8 +50,8 @@ data
 ├── SafeEdit_train                     # training dataset
 ├── SafeEdit_val                       # validation dataset
 ├── SafeEdit_test_ALL                  # test dataset for Task 10 of NLPCC2024, which can be used to evaluate knowledge editing and traditional detoxification methods
-├── data_used_for_analysis
-│   ├── three_instances_for_editing    # three instances for editing vanilla LLM via knowledge editing method
+└── data_used_for_analysis
+    └──three_instances_for_editing    # three instances for editing vanilla LLM via knowledge editing method
 ```
 > ❗️❗️**Data Utility Rules:** 
 For model training, **only the data provided by [this link](https://huggingface.co/datasets/zjunlp/SafeEdit) is allowed to be used as supervised data, which includes SafeEdit_train, SafeEdit_val, three_instances_for_editing.** 
@@ -270,13 +270,13 @@ we also create a **discussion group** for this task. You can join the discussion
 
 ## Important Dates
 
-- 2024/03/25：announcement of shared tasks and call for participation
-- 2024/03/25：registration open
-- 2024/04/15：release of detailed task guidelines & training data
-- 2024/05/25：registration deadline
-- 2024/06/11：release of test data
-- 2024/06/20：participants’ results submission deadline
-- 2024/06/30：evaluation results release and call for system reports and conference paper
+- **2024/03/25**：announcement of shared tasks and call for participation
+- **2024/03/25**：registration open
+- **2024/04/15**：release of detailed task guidelines & training data
+- **2024/05/25**：registration deadline
+- **2024/06/11**：release of test data
+- **2024/06/20**：participants’ results submission deadline
+- **2024/06/30**：evaluation results release and call for system reports and conference paper
 
 
 ## Leaderboard
