@@ -177,8 +177,8 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
   </tr>
   <tr>
     <td>Vanilla</td>
-    <td><center>80.00</td>
     <td><center>38.22</td>
+    <td><center>80.00</td>
     <td><center>52.22</td>
     <td><center>5.78</td>
     <td><center>49.55</td>
