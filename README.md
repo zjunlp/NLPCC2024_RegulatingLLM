@@ -51,7 +51,7 @@ data
 ├── SafeEdit_val                       # validation dataset
 ├── SafeEdit_test_ALL                  # test dataset for Task 10 of NLPCC2024, which can be used to evaluate knowledge editing and traditional detoxification methods
 └── data_used_for_analysis
-    └──three_instances_for_editing    # three instances for editing vanilla LLM via knowledge editing method
+    └── three_instances_for_editing    # three instances for editing vanilla LLM via knowledge editing method
 ```
 > ❗️❗️**Data Utility Rules:** 
 For model training, **only the data provided by [this link](https://huggingface.co/datasets/zjunlp/SafeEdit) is allowed to be used as supervised data, which includes SafeEdit_train, SafeEdit_val, three_instances_for_editing.** 
@@ -297,7 +297,7 @@ Please cite our paper if you use our dataset.
   volume       = {abs/2403.14472},
   year         = {2024},
   url          = {https://doi.org/10.48550/arXiv.2403.14472},
-  doi          = {10.48550/ARXIV.2403.14472},
+  doi          = {10.48550/ARXIV.2403.14472}
 }
 
 @article{chen24unihd,
