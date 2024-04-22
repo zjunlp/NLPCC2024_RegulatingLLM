@@ -23,7 +23,7 @@ This shared task includes two tracks:
 
 #### Track 1: Dataset for Multimodal Hallucination Detection for Multimodal Large Language Models
 
-You can download the datasets via [this link](https://huggingface.co/datasets/zjunlp/MHaluBench).
+You can download the datasets via [this link](https://huggingface.co/datasets/openkg/MHaluBench).
 
 The expected structure of files is:
 
