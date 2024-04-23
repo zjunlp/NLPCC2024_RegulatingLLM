@@ -71,6 +71,7 @@ If there are any differences between the paper and this page, the content of thi
 
 
 #### Track 1: Multimodal Hallucination Detection for Multimodal Large Language Models
+We recommend using models with fewer hallucinations and better performance, such as [LLaVA](https://huggingface.co/liuhaotian/llava-v1.5-7b), [DeepSeek-VL](https://huggingface.co/deepseek-ai/deepseek-vl-7b-base), [Qwen-VL](https://huggingface.co/Qwen/Qwen-VL), etc.
 
 The evaluation metrics include two main categories: Rule-based metric and Rationality-based metric.
 
