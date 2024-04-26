@@ -101,8 +101,8 @@ The evaluation metrics include two main categories: detoxification performance a
 ## Baseline Results
 
 #### Track 1: Multimodal Hallucination Detection for Multimodal Large Language Models
-**Note**: The code and details for UniHD and HalDet-LLaVA can refer to [EasyDetect](https://github.com/zjunlp/EasyDetect)
-
+**Note**: The code and details for UniHD and HalDet-LLaVA can refer to [EasyDetect](https://github.com/zjunlp/EasyDetect). If you want to finetune the model, the minimum GPU memory you need is single card 20G refer to [LLaVA-Llama-3-8B (Youth Edition)](https://github.com/InternLM/xtuner/tree/main/xtuner/configs/llava/llama3_8b_instruct_clip_vit_large_p14_336) and the reasonable GPU memory you need is single card 80G refer to [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA#train)
+ 
 The claim level results on validation dataset
 - Self-Check(GPT-4V) means use GPT-4V with 0 or 2 cases
 - UniHD(GPT-4V) means use GPT4V with 2-shot and tool information
