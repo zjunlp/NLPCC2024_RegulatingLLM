@@ -215,9 +215,9 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
   <tr>
     <td>Vanilla</td>
     <td><center>38.22</td>
-    <td><center>80.00</td>
-    <td><center>52.22</td>
-    <td><center>5.78</td>
+    <td><center>84.44</td>
+    <td><center>47.41</td>
+    <td><center>6.16</td>
     <td><center>49.55</td>
     <td><center>45.39</td>
     <td><center>22.25</td>
@@ -226,10 +226,10 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
   </tr>
   <tr>
     <td>SFT</td>
-    <td><center>43.49</td>
-    <td><center>85.19</td>
-    <td><center>74.57</td>
-    <td><center>4.21</td>
+    <td><center>43.73</td>
+    <td><center>91.85</td>
+    <td><center>70.74</td>
+    <td><center>3.27</td>
     <td><center>54.95</td>
     <td><center>39.84</td>
     <td><center>23.95</td>
@@ -238,10 +238,10 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
   </tr>
   <tr>
     <td>DPO</td>
-    <td><center>43.99</td>
-    <td><center>85.19</td>
-    <td><center>80.25</td>
-    <td><center>4.20</td>
+    <td><center>44.28</td>
+    <td><center>91.11</td>
+    <td><center>77.28</td>
+    <td><center>3.59</td>
     <td><center>53.81</td>
     <td><center>37.26</td>
     <td><center>23.98</td>
@@ -250,10 +250,10 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
   </tr>
   <tr>
     <td>DINM</td>
-    <td><center>44.95</td>
-    <td><center>93.33</td>
-    <td><center>83.13</td>
-    <td><center>6.26</td>
+    <td><center>45.93</td>
+    <td><center>97.04</td>
+    <td><center>87.37</td>
+    <td><center>6.16</td>
     <td><center>49.96</td>
     <td><center>44.31</td>
     <td><center>22.14</td>
