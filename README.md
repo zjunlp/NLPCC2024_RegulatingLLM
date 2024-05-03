@@ -277,7 +277,9 @@ We submit using [CodaBench](https://www.codabench.org/).
 The submission steps are as follows:
 - Registering a CodaBench account
 - search competition: **NLPCC2024 TASK 10 - TRACK 1**
-- upload your submission. Only upload the zipped model results file, the specific format can refer to xxx. 
+- upload your submission. Only upload the zipped model results file, the specific format can refer to [res.zip](https://github.com/zjunlp/NLPCC2024_RegulatingLLM/blob/main/res.zip)
+
+**Note**:At present, only submit the results of the validation set for the testing phase, with 100 submission opportunities per person. Formal submissions will begin once the testing set is released
 
 #### Track 2: Detoxifying Large Language Models
 
