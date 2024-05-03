@@ -1,4 +1,4 @@
-# How to participate Track 2
+# How to participate in Track 2
 We submit using [CodaBench](https://www.codabench.org/competitions/2954/).
 
 The submission steps are as follows:
