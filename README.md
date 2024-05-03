@@ -287,8 +287,9 @@ We submit using [CodaBench](https://www.codabench.org/competitions/2954/).
 
 The submission steps are as follows:
 - Registering a CodaBench account
-- search competition: **NLPCC2024 TASK 10 - TRACK 2**
-- upload your submission. Only upload the zipped model results file, the specific format can refer to [res.zip](https://github.com/zjunlp/NLPCC2024_RegulatingLLM/blob/main/Track%202/res.zip)
+- Search competition: **NLPCC2024 TASK 10 - TRACK 2**
+- Upload your submission. Only upload the zipped model results file, the specific format can refer to [res.zip](https://github.com/zjunlp/NLPCC2024_RegulatingLLM/blob/main/Track%202/res.zip)
+- Details can be found in [README](https://github.com/zjunlp/NLPCC2024_RegulatingLLM/blob/main/Track%202/README.md)
 
 
 
