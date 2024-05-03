@@ -272,7 +272,12 @@ If there is a significant gap between the results on the leaderboard and those v
 
 
 #### Track 1: Multimodal Hallucination Detection for Multimodal Large Language Models
-More information will be available shortly.
+We submit using [CodaBench](https://www.codabench.org/).
+
+The submission steps are as follows:
+- Registering a CodaBench account
+- search competition: **NLPCC2024 TASK 10 - TRACK 1**
+- upload your submission. Only upload the zipped model results file, the specific format can refer to xxx. 
 
 #### Track 2: Detoxifying Large Language Models
 
