@@ -265,6 +265,25 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
 
  > ❗️❗️If conducting experiments using an A800 GPU, calculating the MMLU metric takes around 12 hours, while each of the other metrics only takes about 2 hours.
 
+
+
+## Guidelines for Participants 
+
+#### Track 2: Detoxifying Large Language Models
+
+The optimization strategy for Track 2 can include the following approaches:
+
+- Self-improvement: aim to modify the parameters of vanilla LLaMA2-7B-Chat to enhance their security, e.g., SFT, DPO, RLHF, knowledge editing.
+- Input toxicity detection: filter out malicious attacks from users at the input end. For example, using toxicity classifiers to detect whether a user's input is toxic. If it is deemed toxic, the response is rejected.
+- Prompt: leverage prompts (including RAG) to enhance the toxicity defense capability of vanilla LLaMA2-7B-Chat.
+ > ❗️❗️Toxicity detection at the output end is not allowed in the competition (for example, using toxicity classifiers to detect whether the output is toxic and rewriting the original response if it is toxic).
+ > ❗️❗️For model training, **only the data provided by [this link](https://huggingface.co/datasets/zjunlp/SafeEdit) is allowed to be used as supervised data, which includes SafeEdit_train, SafeEdit_val, three_instances_for_editing.** 
+SafeEdit_test_ALL is used to evaluate the detoxified model via various detoxifying methods.
+SafeEdit_test_ALL and any variations of it cannot be used during the training phase.
+Note that SafeEdit_test in [this link](https://huggingface.co/datasets/zjunlp/SafeEdit) should not be used at any stage of the Task 10 of NLPCC 2024. 
+
+
+
 ## Submission
 
 **Note that best result of this track will be verified using code provided by participants.** 
