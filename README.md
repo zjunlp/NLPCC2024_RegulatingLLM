@@ -109,7 +109,7 @@ We will also soon write a tutorial on how to evaluate the above tasks using Open
  
 The claim level results on validation dataset
 - Self-Check(GPT-4V) means use GPT-4V with 0 or 2 cases
-- UniHD(GPT-4V) means use GPT4V with 2-shot and tool information
+- UniHD(GPT-4V/GPT-4o) means use GPT-4V/GPT-4o with 2-shot and tool information
 - HalDet (LLAVA) means use LLAVA-v1.5 trained on our train datasets
 <table>
     <tr>
@@ -121,7 +121,7 @@ The claim level results on validation dataset
         <td>Mac.F1</td>
     </tr>
     <tr>
-        <td rowspan="5">image-to-text</td>
+        <td rowspan="6">image-to-text</td>
         <td>Self-Check 0shot (GPV-4V)</td>
         <td>75.09</td> 
         <td>74.94</td>
@@ -157,7 +157,14 @@ The claim level results on validation dataset
         <td>81.63</td>
     </tr>
     <tr>
-        <td rowspan="5">text-to-image</td>
+        <td>UniHD(GPT-4o)</td>
+        <td>86.08</td>
+        <td>85.89</td>
+        <td>86.07</td>
+        <td>85.96</td>
+    </tr>
+    <tr>
+        <td rowspan="6">text-to-image</td>
         <td>Self-Check 0shot (GPV-4V)</td>
         <td>76.20</td>
         <td>79.31</td>
@@ -191,6 +198,13 @@ The claim level results on validation dataset
         <td>85.83</td>
         <td>85.83</td>
         <td>85.82</td>
+    </tr>
+    <tr>
+        <td>UniHD(GPT-4o)</td>
+        <td>89.29</td>
+        <td>89.28</td>
+        <td>89.28</td>
+        <td>89.28</td>
     </tr>
 </table>
 
