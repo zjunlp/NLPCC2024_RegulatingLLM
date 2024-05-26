@@ -291,7 +291,7 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
 
 The optimization strategy for Track 2 can include the following approaches:
 
-- Self-improvement: aim to modify the parameters of vanilla LLaMA2-7B-Chat to enhance their security, e.g., SFT, DPO, RLHF, knowledge editing.
+- Self-improvement: aim to modify the parameters of vanilla LLaMA2-7B-Chat to enhance their security, e.g., SFT, DPO, RLHF, knowledge editing, SimPO.
 - Input toxicity detection: filter out malicious attacks from users at the input stage. For example, using toxicity classifiers to detect whether a user's input is toxic. If it is deemed toxic, the response is rejected.
 - Prompt: leverage prompts (including RAG) to enhance the toxicity defense capability of vanilla LLaMA2-7B-Chat.
  > ❗️❗️Toxicity detection at the output stage is not allowed in the competition (for example, using toxicity classifiers to detect whether the output is toxic and rewriting the original response if it is toxic).
