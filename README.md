@@ -295,7 +295,7 @@ The optimization strategy for Track 2 can include the following approaches:
 - Input toxicity detection: filter out malicious attacks from users at the input stage. For example, using toxicity classifiers to detect whether a user's input is toxic. If it is deemed toxic, the response is rejected.
 - Prompt: leverage prompts (including RAG) to enhance the toxicity defense capability of vanilla LLaMA2-7B-Chat.
  > ❗️❗️Toxicity detection at the output stage is not allowed in the competition (for example, using toxicity classifiers to detect whether the output is toxic and rewriting the original response if it is toxic).
-
+ > ❗️❗️In the competition, the use of other open-source models for input filtering and detection is permitted; however, the use of closed-source models and additional data is strictly prohibited.
  > ❗️❗️For model training, **only the data provided by [this link](https://huggingface.co/datasets/zjunlp/SafeEdit) is allowed to be used as supervised data, which includes SafeEdit_train, SafeEdit_val, three_instances_for_editing.** 
 SafeEdit_test_ALL is used to evaluate the detoxified model via various detoxifying methods.
 SafeEdit_test_ALL and any variations of it cannot be used during the training phase.
