@@ -281,7 +281,7 @@ The detoxification performance on SafeEdit_test_ALL and basic ability on some ge
 
 </table>
 
- > ❗️❗️If conducting experiments using an A800 GPU, calculating the MMLU metric takes around 12 hours, while each of the other metrics only takes about 2 hours.
+ > ❗️❗️If conducting experiments using an A800 GPU, calculating the MMLU metric takes around 12 hours, while each of the other metrics only takes about 4 hours.
 
 
 
