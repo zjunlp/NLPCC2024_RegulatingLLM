@@ -299,7 +299,9 @@ The optimization strategy for Track 2 can include the following approaches:
  > ❗️❗️Toxicity detection at the output stage is not allowed in the competition (for example, using toxicity classifiers to detect whether the output is toxic and rewriting the original response if it is toxic). Besides, only open-source models can be used as Toxicity detection (filters); please refrain from using closed-source models.
 
  > ❗️❗️In the competition, the use of other open-source models for input filtering and detection is permitted; however, the use of closed-source models and additional data is strictly prohibited.
-
+ 
+ > ❗️❗️In the competition, all additional models (such as filters, detectors, etc.) must not exceed LLaMA2-7B-Chat in terms of performance and parameter size. Here, performance includes our benchmark evaluations of detoxification capability and general ability.
+ 
  > ❗️❗️For model training, **only the data provided by [this link](https://huggingface.co/datasets/zjunlp/SafeEdit) is allowed to be used as supervised data, which includes SafeEdit_train, SafeEdit_val, three_instances_for_editing.** 
 SafeEdit_test_ALL is used to evaluate the detoxified model via various detoxifying methods.
 SafeEdit_test_ALL and any variations of it cannot be used during the training phase.
